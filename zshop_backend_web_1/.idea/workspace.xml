@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d1b3b6-a9b2-494c-ab1f-94ea17e10976" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybaitsdemo/src/main/java/com/su/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybaitsdemo/src/main/java/com/su/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d1d1b3b6-a9b2-494c-ab1f-94ea17e10976" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../mybaitsdemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -411,7 +407,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567929885080" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567930046360" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -623,12 +619,12 @@
       <workItem from="1567828928786" duration="14860000" />
       <workItem from="1567902110103" duration="4288000" />
       <workItem from="1567906578825" duration="8918000" />
-      <workItem from="1567917882064" duration="7897000" />
+      <workItem from="1567917882064" duration="8053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50589000" />
+    <option name="totallyTimeSpent" value="50745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
