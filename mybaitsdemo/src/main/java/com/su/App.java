@@ -20,7 +20,6 @@ public class App
     public static void main( String[] args ) throws IOException {
 
 //        System.out.println( "Hello World!" );
-        //获取mybatis-config的全局xml文件的输入流对象
 
         InputStream inputStream= Resources.getResourceAsStream("mybatis-conf.xml");
 
