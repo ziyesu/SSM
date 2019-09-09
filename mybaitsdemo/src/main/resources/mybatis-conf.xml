@@ -24,6 +24,7 @@
 
     <mappers>
         <mapper resource="com/su/mapper/productTypeMapper.xml"/>
+        <mapper resource="com/su/mapper/productMapper.xml"/>
     </mappers>
 
 </configuration>

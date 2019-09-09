@@ -1,7 +1,8 @@
-package com.su;
+package com.su.zshop;
 
 
-import com.su.pojo.ProductType;
+import com.su.zshop.common.util;
+import com.su.zshop.pojo.ProductType;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -33,10 +34,9 @@ public class App
         SqlSession session=sf.openSession();
 
 
-//        session.insert(selectMapper("insertProductTpye"),productType);
 
         productType.setName("c");
-        List<ProductType> productTypes=session.selectList(selectMapper("selectProductType"),productType);
+        List<ProductType> productTypes=session.selectList(util.selectMapper("productTypeMapper.selectProductType"),productType);
 
         productTypes.forEach(p-> System.out.println(p));
 
@@ -45,8 +45,5 @@ public class App
 
     }
 
-    public static String selectMapper(String path){
-        StringBuffer root=new StringBuffer("com.su.mapper.productTypeMapper.");
-        return root.append(path).toString();
-    }
+
 }

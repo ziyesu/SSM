@@ -1,26 +1,27 @@
-package com.su.pojo;
+package com.su.zshop.pojo;
 
 import java.io.Serializable;
 
-public class ProductType implements Serializable {
-    private int id;
+public class ProductType extends PageModel implements Serializable {
+
+    private Integer id;
     private String name;
-    private int status;
+    private Integer status;
 
     @Override
     public String toString() {
-        return "productType{" +
+        return "ProductType{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", status=" + status +
                 '}';
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -32,11 +33,11 @@ public class ProductType implements Serializable {
         this.name = name;
     }
 
-    public int getStatus() {
+    public Integer getStatus() {
         return status;
     }
 
-    public void setStatus(int status) {
+    public void setStatus(Integer status) {
         this.status = status;
     }
 }

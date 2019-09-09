@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../mybaitsdemo/mybaitsdemo.iml" filepath="$PROJECT_DIR$/../mybaitsdemo/mybaitsdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ssmdemo/ssmdemo.iml" filepath="$PROJECT_DIR$/../ssmdemo/ssmdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zshop_backend_web_1.iml" filepath="$PROJECT_DIR$/zshop_backend_web_1.iml" />
     </modules>
   </component>
