@@ -1,6 +1,6 @@
 package com.su.zshop.service.impl;
 
-import com.su.zshop.dao.ProductTypeDaoMapper;
+import com.su.zshop.dao.ProductTypeDao;
 import com.su.zshop.pojo.ProductType;
 import com.su.zshop.service.ProductTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import java.util.List;
 public class ProductTypeServiceImpl implements ProductTypeService {
 
     @Autowired
-    private ProductTypeDaoMapper productTypeDao;
+    private ProductTypeDao productTypeDao;
 
     @Override
     public List<ProductType> queryProductType(ProductType productType) {

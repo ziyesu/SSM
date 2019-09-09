@@ -32,20 +32,6 @@ public class SpringMVC {
 
     }
 
-    @RequestMapping("/t")
-    public String findProductType()
-    {
-        ProductType productType=new ProductType();
-        productType.setId(33);
-
-        productType.setName("更新测试");
-
-        int dts=productTypeService.update(productType);
-        System.out.println(dts);
-        return "hello";
-
-    }
-
     @RequestMapping("/add")
     @ResponseBody
     public ResponseResult add(ProductType productType)

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Repository
-public interface ProductTypeDaoMapper {
+public interface ProductTypeDao {
     public List<ProductType> queryProduceType(ProductType productType);
     public int insert(ProductType productType);
     public int delete(ProductType productType);
