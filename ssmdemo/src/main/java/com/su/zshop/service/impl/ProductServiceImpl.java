@@ -16,7 +16,7 @@ public class ProductServiceImpl implements ProductService {
     private ProductDao productDao;
 
     @Override
-    public List<ProductType> queryProduct(Product product) {
+    public List<Product> queryProduct(Product product) {
 
         //获取数据库表的总记录条数
         int totalCount=productDao.queryProduceCount(product);

@@ -7,12 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1d1b3b6-a9b2-494c-ab1f-94ea17e10976" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/SpringMVC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/SpringMVC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductTypeDaoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductTypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductTypeDaoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductTypeDaoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductTypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductDaoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductDaoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/product.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,13 +50,6 @@
         <item name="zshop@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="zshop: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zshop@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="zshop: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="t_address: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -125,12 +118,14 @@
     <session id="-1303811389">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -139,18 +134,19 @@
           <entry key="css" value="1" />
           <entry key="fxml" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="72" />
-          <entry key="jsp" value="9" />
+          <entry key="java" value="75" />
+          <entry key="js" value="2" />
+          <entry key="jsp" value="10" />
           <entry key="mybatis-conf" value="1" />
           <entry key="productMapper" value="1" />
-          <entry key="properties" value="4" />
+          <entry key="properties" value="5" />
           <entry key="sql" value="1" />
           <entry key="t" value="1" />
-          <entry key="t_product" value="2" />
+          <entry key="t_product" value="3" />
           <entry key="t_product_type" value="4" />
           <entry key="t_sysuser" value="1" />
           <entry key="test" value="1" />
-          <entry key="xml" value="33" />
+          <entry key="xml" value="38" />
           <entry key="xx" value="1" />
         </counts>
       </usages-collector>
@@ -158,36 +154,39 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="1" />
-          <entry key="Database Element" value="10" />
+          <entry key="Database Element" value="11" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="72" />
-          <entry key="JSP" value="9" />
-          <entry key="Properties" value="4" />
+          <entry key="JAVA" value="75" />
+          <entry key="JSP" value="10" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Properties" value="5" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="37" />
+          <entry key="XML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="cell" value="29" />
           <entry key="dummy" value="33" />
           <entry key="fxml" value="1" />
-          <entry key="java" value="2070" />
-          <entry key="jsp" value="29" />
+          <entry key="java" value="2079" />
+          <entry key="jsp" value="55" />
           <entry key="mybatis-conf" value="28" />
           <entry key="properties" value="5" />
           <entry key="sql" value="24" />
           <entry key="txt" value="5" />
-          <entry key="xml" value="679" />
+          <entry key="xml" value="684" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2070" />
-          <entry key="JSP" value="29" />
+          <entry key="JAVA" value="2079" />
+          <entry key="JSP" value="55" />
           <entry key="PLAIN_TEXT" value="38" />
           <entry key="Properties" value="5" />
           <entry key="SQL" value="36" />
-          <entry key="XML" value="696" />
+          <entry key="Scratch" value="29" />
+          <entry key="XML" value="701" />
         </counts>
       </usages-collector>
     </session>
@@ -197,29 +196,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductDaoMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="40">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,24 +206,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductTypeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="280">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,26 +218,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/pojo/Product.java">
+        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/product.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-              <folding>
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4140">
+              <caret line="207" column="16" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDao.java">
+        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/js/userSetting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1500">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/js/jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18860">
+              <caret line="955" column="3" selection-start-line="955" selection-start-column="3" selection-end-line="955" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -297,12 +263,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/resources/spring-mvc.xml">
+        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/resources/spring-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="500">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/resources/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/resources/dataSource.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -375,20 +355,20 @@
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/pojo/ProductType.java" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/resources/spring-dao.xml" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductTypeDaoMapper.java" />
-        <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/producttypelist.jsp" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductTypeDaoMapper.xml" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/SpringMVC.java" />
-        <option value="$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/product.jsp" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductTypeDao.java" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/pojo/Product.java" />
-        <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductDaoMapper.xml" />
-        <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductService.java" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/product.jsp" />
+        <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java" />
+        <option value="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java" />
       </list>
     </option>
   </component>
@@ -438,7 +418,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -550,29 +530,20 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568030116373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568030125196" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="C:/Program Files/feiq/Recv Files/zshop_backend_web_2/zshop_backend_web_2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -847,12 +818,14 @@
       <workItem from="1567906578825" duration="8918000" />
       <workItem from="1567917882064" duration="12182000" />
       <workItem from="1567990272922" duration="3237000" />
-      <workItem from="1568008998879" duration="19642000" />
+      <workItem from="1568008998879" duration="19680000" />
+      <workItem from="1568075613167" duration="8488000" />
+      <workItem from="1568163400381" duration="2333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77753000" />
+    <option name="totallyTimeSpent" value="88612000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -867,7 +840,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27458397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -885,7 +858,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32569557" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838038" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.22749591" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.0" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -895,11 +868,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.16263238" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.028744327" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.046898637" />
-      <window_info anchor="right" id="Run" order="9" sideWeight="0.49924356" weight="0.1301059" />
+      <window_info anchor="right" id="Database" order="8" weight="0.18835099" />
+      <window_info anchor="right" id="Run" order="9" sideWeight="0.49924356" weight="0.16792738" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -913,20 +886,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mybaitsdemo/src/main/resources/mybatis-conf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mybaitsdemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -993,9 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/resources/dataSource.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ssmdemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1038,12 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,9 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,10 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,20 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/pojo/PageModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://af5c6326-2a72-4a8e-9c60-cd146e0bd519/schema/zshop/table/t_product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1145,20 +1074,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDaoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDaoMapper.java" />
     <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductTypeDaoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1180,30 +1096,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductTypeDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1211,6 +1107,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="217" column="26" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/pojo/PageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductDaoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://af5c6326-2a72-4a8e-9c60-cd146e0bd519/schema/zshop/table/t_product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="207" column="16" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/js/userSetting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18860">
+          <caret line="955" column="3" selection-start-line="955" selection-start-column="3" selection-end-line="955" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1228,79 +1211,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="500">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/pojo/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/resources/dataSource.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductDaoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
           </folding>
         </state>
       </provider>

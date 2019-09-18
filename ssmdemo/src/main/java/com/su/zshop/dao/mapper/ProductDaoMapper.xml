@@ -14,7 +14,7 @@
         <result column="image" property="image" />
     </resultMap>
 
-    <select id="queryProduceType" parameterType="ProductType" resultMap="produceResultMap">
+    <select id="queryProduce" parameterType="Product" resultMap="produceResultMap">
 
         SELECT * FROM t_product
         <where>
@@ -50,14 +50,14 @@
 
     <!--</update>-->
 
-    <!--<select id="queryProduceTypeCount" parameterType="ProductType" resultType="int">-->
-        <!--SELECT count(*) FROM t_product_type-->
-        <!--<where>-->
-            <!--<if test="name!=null and name!=''">-->
-                <!--and name like concat(#{name},'%')-->
-            <!--</if>-->
-        <!--</where>-->
-    <!--</select>-->
+    <select id="queryProduceCount" parameterType="ProductType" resultType="int">
+        SELECT count(*) FROM t_product
+        <where>
+            <if test="name!=null and name!=''">
+                and name like concat(#{name},'%')
+            </if>
+        </where>
+    </select>
 
     <!--<select id="findById" parameterType="ProductType" resultType="ProductType">-->
 

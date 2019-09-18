@@ -11,5 +11,4 @@ public interface ProductTypeService {
     public int delete(ProductType productType);
     public int update(ProductType productType);
 
-
 }

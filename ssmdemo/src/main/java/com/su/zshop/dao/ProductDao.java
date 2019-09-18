@@ -11,5 +11,5 @@ public interface ProductDao {
     public int delete(Product product);
     public int update(Product product);
 //    //获取商品类别数据表的总记录条数
-    public int queryProduceTypeCount(Product product);
+    public int queryProduceCount(Product product);
 }

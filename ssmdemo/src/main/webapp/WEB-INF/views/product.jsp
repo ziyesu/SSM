@@ -37,7 +37,7 @@
 
 
         let goTo=()=>{
-            location.href='${pageContext.request.contextPath}/findProductType?pageIndex=${productType.pageIndex}';
+            location.href='${pageContext.request.contextPath}/findProductType?pageIndex=${product.pageIndex}';
         }
 
         let ajax=(data,path,andThen)=>{
@@ -63,6 +63,7 @@
                 }
             );
         }
+
 
         // 操作
         let productOperation={
@@ -178,17 +179,17 @@
                 </tr>
                 </thead>
                 <tbody id="tb">
-                <c:forEach items="${productTypeList}" var="productType">
+                <c:forEach items="${productList}" var="product">
                     <tr>
-                        <td><input type="checkbox" class="productTypeId" name="productTypeId" style="margin-right: 1em" value="${productType.id}">${productType.id}</td>
+                        <td><input type="checkbox" class="productId" name="productId" style="margin-right: 1em" value="${product.id}">${product.id}</td>
                         <td>${productType.name}</td>
                         <td>
                             <c:if test="${productType.status==1}">启用</c:if>
                             <c:if test="${productType.status==0}">禁用</c:if>
                         </td>
                         <td class="text-center">
-                            <input type="button" class="btn btn-warning btn-sm doProTypeModify" value="修改" onclick="showProductType(${productType.id},'${productType.name}',${productType.status})">
-                            <input type="button" class="btn btn-warning btn-sm doProTypeDelete" onclick="productOperation.showDeleteModal(${productType.id})" value="删除">
+                            <input type="button" class="btn btn-warning btn-sm doProTypeModify" value="修改" onclick="showProductType(${product.id},'${product.name}',${productType.status})">
+                            <input type="button" class="btn btn-warning btn-sm doProTypeDelete" onclick="productOperation.showDeleteModal(${product.id})" value="删除">
                             <c:if test="${productType.status==1}">
                                 <input type="button" class="btn btn-danger btn-sm doProTypeDisable" value="禁用" onclick="productOperation.modifyStatus(${productType.id},this)">
                             </c:if>

@@ -17,13 +17,12 @@ public class ProductController {
     private ProductService productService;
 
 
-
     @RequestMapping("")
     public String product(Product product, Model model){
         List<Product> productList= productService.queryProduct(product);
 
         //将数据对象存储到request作用域
-        model.addAttribute("productTypeList",productList);
+        model.addAttribute("productList",productList);
         return "product";
     }
 //
