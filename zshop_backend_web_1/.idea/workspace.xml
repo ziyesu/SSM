@@ -7,13 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1d1b3b6-a9b2-494c-ab1f-94ea17e10976" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductDaoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/dao/mapper/ProductDaoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmdemo/src/main/webapp/WEB-INF/views/product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WordCount/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WordCount/src/main/java/com/su/hadoop/WordCountMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WordCount/src/main/java/com/su/hadoop/WordCountReduce.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../mybaitsdemo/target/" />
@@ -118,14 +115,15 @@
     <session id="-1303811389">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -196,8 +194,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="200">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,7 +207,7 @@
         <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -418,7 +416,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -428,113 +425,14 @@
             </path>
             <path>
               <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zshop" type="462c0819:PsiDirectoryNode" />
-              <item name="contorller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zshop" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zshop" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zshop" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zshop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zshop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zshop_backend_web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="zshop_backend_web_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -543,7 +441,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568030125196" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/feiq/Recv Files/zshop_backend_web_2/zshop_backend_web_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -821,11 +719,12 @@
       <workItem from="1568008998879" duration="19680000" />
       <workItem from="1568075613167" duration="8488000" />
       <workItem from="1568163400381" duration="2333000" />
+      <workItem from="1569312065421" duration="148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88612000" />
+    <option name="totallyTimeSpent" value="88760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -838,9 +737,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27458397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27912253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1168,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/contorller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="200">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1231,7 +1129,7 @@
     <entry file="file://$PROJECT_DIR$/../ssmdemo/src/main/java/com/su/zshop/service/ProductTypeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

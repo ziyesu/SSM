@@ -4,7 +4,7 @@
 
 
 
-<mapper namespace="com.su.zshop.dao.ProductDao">
+<mapper namespace="com.su.zshop.com.su.dao.ProductDao">
 
     <resultMap id="produceResultMap" type="Product">
         <id column="id" property="id"/>

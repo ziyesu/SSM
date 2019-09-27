@@ -21,15 +21,15 @@
     <!-- 3.配置SqlSessionFactory对象 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="mapperLocations" value="classpath:com/su/zshop/dao/mapper/*.xml"/>
-        <property name="typeAliasesPackage" value="com.su.zshop.pojo"/>
+        <property name="mapperLocations" value="classpath:com/su/zshop/com.su.dao/mapper/*.xml"/>
+        <property name="typeAliasesPackage" value="com.su.zshop.com.su.pojo"/>
 
     </bean>
 
     <!-- 4.配置扫描Dao接口包，动态实现Dao接口，注入到soring容器中 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-        <property name="basePackage" value="com.su.zshop.dao"/>
+        <property name="basePackage" value="com.su.zshop.com.su.dao"/>
     </bean>
 
 </beans>
